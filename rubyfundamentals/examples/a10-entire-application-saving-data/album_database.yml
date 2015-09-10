@@ -1,0 +1,31 @@
+---
+- !ruby/object:PopAlbum
+  artist: Status Quo
+  genre: rock
+  name: Even Greater Hits
+  numtracks: 25
+- !ruby/object:ClassicalAlbum
+  artist: Bjorling
+  composer: Verdi
+  conductor: Karajan
+  name: Aida
+- !ruby/object:PopAlbum
+  artist: joni mitchel
+  genre: folk
+  name: blue
+  numtracks: 12
+- !ruby/object:ClassicalAlbum
+  artist: Yo-yo Ma
+  composer: Beethoven
+  name: 9th symphony
+  numtracks: 5
+- !ruby/object:PopAlbum
+  artist: Matt Alber
+  genre: singer song writer
+  name: wind sand stars
+  numtracks: 8
+- !ruby/object:ClassicalAlbum
+  artist: Kathleen Battle
+  composer: Bach
+  name: The Best Of
+  numtracks: 12
