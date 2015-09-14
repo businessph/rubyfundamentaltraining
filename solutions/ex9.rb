@@ -21,7 +21,7 @@ breakfast.calories = gets.chomp.to_i
 
 
 
-puts "Breakfast of an #{breakfast.dish} cost $#{breakfast.price.round(2)} 
+puts "Breakfast of an #{breakfast.dish} cost $#{breakfast.price.round(2)}
 and I gained #{breakfast.calories} calories 
 at the cost of $#{(breakfast.price/breakfast.calories).round(2)} per calorie. 
 #{measureCalories(breakfast.calories)} for me."
