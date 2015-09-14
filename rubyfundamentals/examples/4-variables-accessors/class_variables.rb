@@ -2,10 +2,10 @@
 # new topic: class variables
 
     class Vehicle
-      
-      @@total_vehicles = 0 # class variable
-      attr_reader :color
-      attr_accessor :description 
+
+        attr_reader :color
+        attr_accessor :description
+        @@total_vehicles = 0 # class variable
       
       def initialize(col, descrip)
         @color = col

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="" />
+    <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/album_database.yml" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/album_database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_basics.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_basics.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/class_variables.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/class_variables.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" afterPath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="rubyfundamentaltraining.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,13 +23,44 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@embed_in_string.coverage" NAME="embed_in_string Coverage Results" MODIFIED="1441728376398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@inspect.coverage" NAME="inspect Coverage Results" MODIFIED="1441899005174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1441895362130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1441895610786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@bird_class.coverage" NAME="bird_class Coverage Results" MODIFIED="1441742110623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/2-classes-instances" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@to_s_method.coverage" NAME="to_s_method Coverage Results" MODIFIED="1441900275262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@get_put.coverage" NAME="get_put Coverage Results" MODIFIED="1441827865011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@for_loop_array.coverage" NAME="for_loop_array Coverage Results" MODIFIED="1442247354821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@if_elseif_else.coverage" NAME="if_elseif_else Coverage Results" MODIFIED="1442247888181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@include_module.coverage" NAME="include_module Coverage Results" MODIFIED="1442248171163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1442246273509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@until.coverage" NAME="until Coverage Results" MODIFIED="1442247445670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@hash_operations.coverage" NAME="hash_operations Coverage Results" MODIFIED="1442247109665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/6-hashes" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@bird_class.coverage" NAME="bird_class Coverage Results" MODIFIED="1442246166620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/2-classes-instances" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@using_hash.coverage" NAME="using_hash Coverage Results" MODIFIED="1442247131252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/6-hashes" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@require_module.coverage" NAME="require_module Coverage Results" MODIFIED="1442248264596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@iterating_hash.coverage" NAME="iterating_hash Coverage Results" MODIFIED="1442247401096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@get_put.coverage" NAME="get_put Coverage Results" MODIFIED="1442246060722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@to_s_method.coverage" NAME="to_s_method Coverage Results" MODIFIED="1442246388372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@embed_in_string.coverage" NAME="embed_in_string Coverage Results" MODIFIED="1442245994417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@accessor_methods.coverage" NAME="accessor_methods Coverage Results" MODIFIED="1442246529514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@assign_array_values.coverage" NAME="assign_array_values Coverage Results" MODIFIED="1442246947924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@if_else.coverage" NAME="if_else Coverage Results" MODIFIED="1442247763986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@multi_param_each.coverage" NAME="multi_param_each Coverage Results" MODIFIED="1442247422067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@if_else_shortcut.coverage" NAME="if_else_shortcut Coverage Results" MODIFIED="1442247859693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@and_or_not.coverage" NAME="and_or_not Coverage Results" MODIFIED="1442247644010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@better_accessor_methods.coverage" NAME="better_accessor_methods Coverage Results" MODIFIED="1442246549687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@array_basics.coverage" NAME="array_basics Coverage Results" MODIFIED="1442246869009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@include_module_in_class.coverage" NAME="include_module_in_class Coverage Results" MODIFIED="1442248193714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@inspect.coverage" NAME="inspect Coverage Results" MODIFIED="1442246338267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@while.coverage" NAME="while Coverage Results" MODIFIED="1442247465453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@each_loop.coverage" NAME="each_loop Coverage Results" MODIFIED="1442247313134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@class_variables.coverage" NAME="class_variables Coverage Results" MODIFIED="1442246569873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@stand_alone_module.coverage" NAME="stand_alone_module Coverage Results" MODIFIED="1442248307458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@include_two_modules.coverage" NAME="include_two_modules Coverage Results" MODIFIED="1442248217826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@music_database_application.coverage" NAME="music_database_application Coverage Results" MODIFIED="1442248434793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@iterate_multi_level_array.coverage" NAME="iterate_multi_level_array Coverage Results" MODIFIED="1442247002593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1442246065307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@index_into_array.coverage" NAME="index_into_array Coverage Results" MODIFIED="1442246976586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@multiple_variable_accessors.coverage" NAME="multiple_variable_accessors Coverage Results" MODIFIED="1442246593845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@unless.coverage" NAME="unless Coverage Results" MODIFIED="1442247973651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@for_with_counter.coverage" NAME="for_with_counter Coverage Results" MODIFIED="1442247371211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@case.coverage" NAME="case Coverage Results" MODIFIED="1442247723382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@array_instantiations.coverage" NAME="array_instantiations Coverage Results" MODIFIED="1442246909873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@module.coverage" NAME="module Coverage Results" MODIFIED="1442248242581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,8 +71,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="embed_in_string.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb">
+      <file leaf-file-name="ex3.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex3.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -41,58 +81,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numbers.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/numbers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bird_class.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/2-classes-instances/bird_class.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inheritance.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inheritance.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inspect.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inspect.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="to_s_method.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accessor_methods.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/accessor_methods.rb">
+      <file leaf-file-name="ex4.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex4.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -101,18 +91,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="better_accessor_methods.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/better_accessor_methods.rb">
+      <file leaf-file-name="ex5.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex5.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_put.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb">
+      <file leaf-file-name="ex6.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex6.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex7.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex7.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex8.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex8.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex9.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex9.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex9_external_module.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/ex9_external_module.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exa10.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/exa10.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phoneBook.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solutions/phoneBook.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -134,6 +184,11 @@
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inheritance.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/better_accessor_methods.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/class_variables.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_basics.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb" />
       </list>
     </option>
   </component>
@@ -145,9 +200,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="23" />
-    <option name="width" value="1318" />
+    <option name="x" value="2233" />
+    <option name="y" value="219" />
+    <option name="width" value="1280" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -173,6 +228,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,133 +257,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4-variables-accessors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3-inheritance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-classes-instances" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1-userInput-strings_numbers" />
+              <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/btprojects/qa_web_test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.to_s_method">
-    <configuration default="false" name="get_put" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.music_database_application">
+    <configuration default="false" name="include_two_modules" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -340,14 +289,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins/include_two_modules.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="numbers" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="module" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -360,14 +309,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/numbers.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins/module.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="inheritance" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="require_module" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/3-inheritance" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -380,14 +329,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/3-inheritance/inheritance.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins/require_module.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="inspect" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="stand_alone_module" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/3-inheritance" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -400,14 +349,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/3-inheritance/inspect.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/9-modules-mixins/stand_alone_module.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="to_s_method" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="music_database_application" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/3-inheritance" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -420,7 +369,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/music_database_application.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -492,19 +441,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.get_put" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.numbers" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.inheritance" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.inspect" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.to_s_method" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.include_two_modules" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.module" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.require_module" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.stand_alone_module" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.music_database_application" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.to_s_method" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.inspect" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.inheritance" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.numbers" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.get_put" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.music_database_application" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.stand_alone_module" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.require_module" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.module" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.include_two_modules" />
       </list>
     </recent_temporary>
   </component>
@@ -522,27 +471,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1318" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="2233" y="219" width="1280" height="873" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19278997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25201938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25578406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10526316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -561,10 +510,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb">
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -572,23 +521,23 @@
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/numbers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/2-classes-instances/bird_class.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.83226836">
+          <caret line="59" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inheritance.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.07188498">
+          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -596,15 +545,15 @@
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inspect.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.85623">
+          <caret line="37" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -612,7 +561,7 @@
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/accessor_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -620,12 +569,252 @@
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/better_accessor_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="29" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb">
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/class_variables.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/multiple_variable_accessors.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23006135">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_basics.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7453416">
+          <caret line="29" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7204969">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/index_into_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7204969">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/hash_operations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/using_hash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46583852">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/each_loop.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/for_loop_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/for_with_counter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/iterating_hash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/multi_param_each.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/until.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/if_else.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/if_else_shortcut.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/if_elseif_else.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/unless.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69875777">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8385093">
+          <caret line="18" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins/include_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins/include_module_in_class.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins/include_two_modules.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins/module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins/require_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins/stand_alone_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/album_database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/music_database_application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/class.pem">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -633,7 +822,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -641,47 +830,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/numbers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/2-classes-instances/bird_class.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inheritance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inspect.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/accessor_methods.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex2.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -689,7 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/better_accessor_methods.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex3.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -697,7 +846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex4.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -705,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex5.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -713,7 +862,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/numbers.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex6.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -721,7 +870,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex7.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -729,7 +878,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex8.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -737,7 +886,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/get_put.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex9.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -745,47 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/numbers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/2-classes-instances/bird_class.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inheritance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inspect.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/accessor_methods.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/ex9_external_module.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -793,10 +902,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/better_accessor_methods.rb">
+    <entry file="file://$PROJECT_DIR$/solutions/exa10.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/phoneBook.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

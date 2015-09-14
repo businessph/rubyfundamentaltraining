@@ -5,6 +5,12 @@ arr1[0]="SF"
 arr1[1]="LA"
 arr1[2]="NY"
 
+arr3 = Array.new(3,[1,2,3])
+
+puts "From puts: #{arr3}"
+
+puts arr1
+
 puts "From puts: #{arr1}" 
 
 puts "From inspect: #{arr1.inspect}" 

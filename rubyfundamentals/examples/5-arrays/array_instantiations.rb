@@ -4,9 +4,9 @@ def test_microphone
 	return "testing...testing...testing"
 end
 	
-mixed_array = [10+8/2, test_microphone(),  `dir`]	#instantiating an array		
+mixed_array = [10+8/2, test_microphone(), 'dir']	#instantiating an array
 
-p(mixed_array)							
+p(mixed_array)
 
 string_array = %w( these are all treated as strings because of the %w )
 
@@ -36,3 +36,9 @@ array_of_arrays_2 = [	[3,6,9],
 		[27,30,33,26] ]
 		
 p(array_of_arrays_2)
+
+puts
+for i in array_of_arrays_2 do
+  p(array_of_arrays_2)
+end
+puts

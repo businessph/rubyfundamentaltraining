@@ -29,3 +29,8 @@
   composer: Bach
   name: The Best Of
   numtracks: 12
+- !ruby/object:PopAlbum
+  artist: popartisttest
+  genre: popgenreofmusictest
+  name: popalbumtest
+  numtracks: 0

@@ -18,6 +18,12 @@ def return_string
   return "Welcome to Ruby Fundamentals" 
 end
 
+### "output starts here"
+puts
+puts "< - = output starts here = - >"
+puts
+### "output starts here"
+
 display_string
 
 display_name("Ruven")
