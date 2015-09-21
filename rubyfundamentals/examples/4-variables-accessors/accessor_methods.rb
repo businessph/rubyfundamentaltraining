@@ -1,28 +1,31 @@
-# instance variables and accessor methods
-   
+### instance variables and accessor methods
 class Vehicle
 
-  ### set accessor for @color
+  ### SET accessor for @color
   def color= col
     @color = col
   end
 
-  ### get accessor for @color
+  ### GET accessor for @color
    def color
       @color
    end
 
 end  
-  
-vehicle = Vehicle.new 
 
+### create a new vehicle
+vehicle = Vehicle.new
 
-
+puts
+### make vehicle color blue
 vehicle.color = "blue"
+### display vehicle color
+puts vehicle.color
 
-puts  vehicle.color  
-# or using ()
-vehicle.color=("pink") 
-puts  vehicle.color 
+puts
+#### make vehicle color or using ()
+vehicle.color=("pink")
+### display vehicle color
+puts vehicle.color
 
 

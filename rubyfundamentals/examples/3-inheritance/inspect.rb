@@ -1,7 +1,7 @@
 class Car
 
       def initialize(col, descrip ) 
-        @color         = col
+        @color        = col
         @description  = descrip
       end
 
@@ -14,8 +14,10 @@ obj3 = Car.new("color string", "description string")
 
 ###what is the difference between p(obj1) and obj1.inspect
 puts  ###new line
-p(obj1)  
-p(obj2) 
+p(obj1)
+puts  ###new line
+p(obj2)
+puts  ###new line
 p(obj3)
 
 puts  ###new line

@@ -46,6 +46,7 @@ end
   vehicle1 = Vehicle.new('greyblue','2009 mazdaspeed3')
   puts "Car color=#{vehicle1.get_color}, description=#{vehicle1.get_description}"
 
+  puts  ###new line
   vehicle1.set_color("burple")
   vehicle1.set_description("give a new description please")
   puts "Car color=#{vehicle1.get_color}, description=#{vehicle1.get_description}"
@@ -54,8 +55,6 @@ end
   vehicle1.set_color('hot pink')
   vehicle1.set_description('amazingly smooth ride')
   puts "\nCar after Modifications: color=#{vehicle1.get_color}, description=#{vehicle1.get_description}}"
-
-  puts  ###new line
 
   puts  ###new line
   car1 = Car.new("yellow", "coup", "manual")
