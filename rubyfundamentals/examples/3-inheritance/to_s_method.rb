@@ -2,7 +2,7 @@
 
 class Car
       def initialize(col, descrip) 
-        @color         = col
+        @color        = col
         @description  = descrip
       end
       
@@ -11,8 +11,9 @@ class Car
       # end
 end
 
+car1 = Car.new("blue", "vehicle in need of body-work")
 
-car1 = Car.new("blue", "vehicle in need of body-work") 
+puts  ###new line
 
 print "Object.to_s: "
 puts Object

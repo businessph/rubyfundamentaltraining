@@ -1,18 +1,29 @@
 class Car
+
       def initialize(col, descrip ) 
         @color         = col
         @description  = descrip
       end
+
 end
 
 obj1 = "Are you warming up to Ruby?"
 obj2 = 2468
-obj3 = Car.new("gold", "a glittery gold thing") 
+obj3 = Car.new("color string", "description string")
 
+
+###what is the difference between p(obj1) and obj1.inspect
+puts  ###new line
 p(obj1)  
 p(obj2) 
 p(obj3)
 
-puts obj3.inspect
+puts  ###new line
+puts "\n" + obj1.inspect
+puts "\n" + obj2.inspect
+puts "\n" + obj3.inspect
 
+puts  ###new line
+puts obj1 == obj1
+puts obj1 == obj2
 

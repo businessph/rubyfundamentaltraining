@@ -1,5 +1,4 @@
 # All code in this file is part of the object named main
-
 # Embedding in strings: variables, method calls and mathematical expressions 
 
 def display_string
@@ -15,7 +14,11 @@ def return_names(first, last)
 end
 
 def return_string
-  return "Welcome to Ruby Fundamentals" 
+  return "Welcome to Ruby Fundamentals"
+end
+
+def return_string1
+  "Welcome to Ruby Fundamentals"
 end
 
 ### "output starts here"
@@ -23,6 +26,11 @@ puts
 puts "< - = output starts here = - >"
 puts
 ### "output starts here"
+
+
+puts "Welcome to Ruby Fundamentals"
+
+print "Welcome to Ruby Fundamentals \n"
 
 display_string
 
@@ -34,3 +42,4 @@ puts "Hello and #{return_string}"      #embed method call
 
 puts "\n\t\t #{(5+22) * 4}"      #embed mathematical expression
 
+puts return_string1

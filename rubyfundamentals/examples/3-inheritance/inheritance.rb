@@ -3,8 +3,8 @@
 class Vehicle
 
      def initialize(col, descrip)  
-         @color         = col
-         @description  = descrip
+       @color         = col
+       @description  = descrip
      end
 
      def set_color(col)
@@ -25,32 +25,44 @@ class Vehicle
 
 end      
       
-class Car < Vehicle      # Car inherits from extends Vehicle
+class Car < Vehicle  ### Car inherits from extends Vehicle
 
       def initialize(col, descrip, trans)
         super(col, descrip)
         @transmission = trans
       end
 
-      def set_transmission(trans)
-        @transmission = trans
+      def get_transmission
+        return @transmission
       end
 
-      def get_transmission
-		    return @transmission
+      def set_transmission(trans)
+        @transmission = trans
       end
 
 end
 
   puts  ###new line
+  vehicle1 = Vehicle.new('greyblue','2009 mazdaspeed3')
+  puts "Car color=#{vehicle1.get_color}, description=#{vehicle1.get_description}"
 
+  vehicle1.set_color("burple")
+  vehicle1.set_description("give a new description please")
+  puts "Car color=#{vehicle1.get_color}, description=#{vehicle1.get_description}"
+
+  puts  ###new line
+  vehicle1.set_color('hot pink')
+  vehicle1.set_description('amazingly smooth ride')
+  puts "\nCar after Modifications: color=#{vehicle1.get_color}, description=#{vehicle1.get_description}}"
+
+  puts  ###new line
+
+  puts  ###new line
   car1 = Car.new("yellow", "coup", "manual")
-   
   puts "Car color=#{car1.get_color}, description=#{car1.get_description}, transmission=#{car1.get_transmission}"
-  
-  car1.set_transmission("automatic")  
-  
-  car1.set_description("Has seen better times") 
-  
+
+  puts  ###new line
+  car1.set_transmission("automatic")
+  car1.set_description("Has seen better times")
   puts "\nCar after Modifications: color=#{car1.get_color}, description=#{car1.get_description}, transmission=#{car1.get_transmission}"
-  
+
