@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" afterPath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" />
     </list>
     <ignored path="rubyfundamentaltraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,9 +33,9 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@get_put.coverage" NAME="get_put Coverage Results" MODIFIED="1442853163269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@embed_in_string.coverage" NAME="embed_in_string Coverage Results" MODIFIED="1442853144461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@exa10.coverage" NAME="exa10 Coverage Results" MODIFIED="1442252141141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@assign_array_values.coverage" NAME="assign_array_values Coverage Results" MODIFIED="1442883045927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@accessor_methods.coverage" NAME="accessor_methods Coverage Results" MODIFIED="1442871106659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1442251241862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@assign_array_values.coverage" NAME="assign_array_values Coverage Results" MODIFIED="1442246947924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex9.coverage" NAME="ex9 Coverage Results" MODIFIED="1442252004468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@if_else.coverage" NAME="if_else Coverage Results" MODIFIED="1442247763986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@multi_param_each.coverage" NAME="multi_param_each Coverage Results" MODIFIED="1442247422067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
@@ -52,10 +54,10 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1442251739176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@stand_alone_module.coverage" NAME="stand_alone_module Coverage Results" MODIFIED="1442248307458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@include_two_modules.coverage" NAME="include_two_modules Coverage Results" MODIFIED="1442248217826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@iterate_multi_level_array.coverage" NAME="iterate_multi_level_array Coverage Results" MODIFIED="1442883369343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@music_database_application.coverage" NAME="music_database_application Coverage Results" MODIFIED="1442248434793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@iterate_multi_level_array.coverage" NAME="iterate_multi_level_array Coverage Results" MODIFIED="1442247002593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1442855585633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@index_into_array.coverage" NAME="index_into_array Coverage Results" MODIFIED="1442246976586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@index_into_array.coverage" NAME="index_into_array Coverage Results" MODIFIED="1442883058643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@multiple_variable_accessors.coverage" NAME="multiple_variable_accessors Coverage Results" MODIFIED="1442871344072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@unless.coverage" NAME="unless Coverage Results" MODIFIED="1442247973651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1442251326318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
@@ -84,11 +86,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="array_instantiations.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="array_instantiations.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.740566">
+            <state vertical-scroll-proportion="0.0">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assign_array_values.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_into_array.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/index_into_array.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterate_multi_level_array.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5418719">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -102,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
         <option value="$PROJECT_DIR$/solutions/ex1.rb" />
         <option value="$PROJECT_DIR$/solutions/ex9.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb" />
@@ -118,6 +149,8 @@
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors/multiple_variable_accessors.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_basics.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
       </list>
     </option>
   </component>
@@ -329,67 +362,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.array_instantiations">
-    <configuration default="false" name="accessor_methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyfundamentaltraining" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/4-variables-accessors" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/4-variables-accessors/accessor_methods.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="class_variables" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyfundamentaltraining" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/4-variables-accessors" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/4-variables-accessors/class_variables.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="multiple_variable_accessors" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyfundamentaltraining" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/4-variables-accessors" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/4-variables-accessors/multiple_variable_accessors.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.iterate_multi_level_array">
     <configuration default="false" name="array_basics" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -427,6 +400,66 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assign_array_values" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyfundamentaltraining" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index_into_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyfundamentaltraining" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays/index_into_array.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="iterate_multi_level_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyfundamentaltraining" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -498,19 +531,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.accessor_methods" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.class_variables" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.multiple_variable_accessors" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.array_basics" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.array_instantiations" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.array_basics" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.array_instantiations" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.assign_array_values" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.index_into_array" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.iterate_multi_level_array" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.array_instantiations" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.array_basics" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.multiple_variable_accessors" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.accessor_methods" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.class_variables" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.iterate_multi_level_array" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.index_into_array" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.assign_array_values" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.array_instantiations" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.array_basics" />
       </list>
     </recent_temporary>
   </component>
@@ -587,27 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/index_into_array.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7204969">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/hash_operations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/using_hash.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46583852">
@@ -951,8 +963,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/array_instantiations.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.740566">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/assign_array_values.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/index_into_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5418719">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>

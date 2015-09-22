@@ -15,7 +15,8 @@ for i in multi_dimensional_array do
 	p(i)
 end
 
-
+### loops the first array
+### then loops the second array
 puts( "\n*** for a, b, c, d in.. multi-dimensional array ***" )
 for (a,b,c,d) in multi_dimensional_array #do
 	puts("first=#{a}, second=#{b}, third=#{c}, fourth=#{d}\n" )
