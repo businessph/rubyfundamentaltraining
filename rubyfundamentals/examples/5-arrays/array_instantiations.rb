@@ -35,10 +35,7 @@ array_of_arrays[1]= Array.new(3,'Object')
 p(array_of_arrays)
 
 puts
-array_of_arrays_2 = [	[3,6,9],
-		[12,15,18],
-		[21,24],
-		[27,30,33,26] ]
+array_of_arrays_2 = [	[3,6,9], [12,15,18], [21,24], [27,30,33,26] ]
 p(array_of_arrays_2)
 
 puts
