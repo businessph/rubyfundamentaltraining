@@ -45,20 +45,20 @@
   ### car2 values for col, descrip, and transmission
   car2 = Car.new("black", "leather interior","automatic")
 
-  ### puts
-  ### car2.transmission = "manual"
+  ###1
+  puts ### this displays car1, color, description, and transmission
+  puts "First car color1=#{car1.color}, description=#{car1.description}, transmission=#{car1.transmission}"
+
+  ###2
+  car1.transmission= "automatic"                          ### this changes car1's transmission from manual to automatic
+  car1.description << " (however, it leaks when raining)" ### this adds to car1's description
+  puts  ### this displays car1, color, description, and transmission
+  puts "First car color2=#{car1.color}, description=#{car1.description}, transmission=#{car1.transmission}"
+
+  ###3
   puts
-  puts "First car color=#{car1.color}, description=#{car1.description}, transmission=#{car1.transmission}"
+  puts "\nFirst car3: #{car1.inspect}"  ### uses #{}
 
-  car1.transmission= "automatic"
-  
-  car1.description << " (however, it leaks when raining)"
-
+  ###4
   puts
-  puts "First car color=#{car1.color}, description=#{car1.description}, transmission=#{car1.transmission}"
-
-  puts
-  puts "\nFirst car: #{car1.inspect}"
-
-  puts 
-  puts "Second car: "  + car2.inspect
+  puts "Second car4: "  + car2.inspect  ### does not use #{}

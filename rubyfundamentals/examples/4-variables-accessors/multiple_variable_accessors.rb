@@ -1,17 +1,21 @@
 # reading and writing multiple attributes
 
+### SET and GET
+class Vehicle
 
-class Vehicle               
       attr_accessor :brand, :id, :owner, :color, :description
-      
-end      
-  
+
+end
+
+###create a new vehicle
 vehicle = Vehicle.new
+
+vehicle.owner = "Ruven Hannah"
 vehicle.color = "silver"
-vehicle.description = "drives like a race car"
 vehicle.brand = "Volvo"
 vehicle.id = "CA12345"
-vehicle.owner = "Ruven Hannah"
+vehicle.description = "drives like a race car"
 
-puts("#{vehicle.owner}'s #{vehicle.color} #{vehicle.brand} 
-with id #{vehicle.id} #{vehicle.description}")
+puts
+puts("#{vehicle.owner}'s #{vehicle.color} #{vehicle.brand} with id #{vehicle.id} #{vehicle.description}")
+
