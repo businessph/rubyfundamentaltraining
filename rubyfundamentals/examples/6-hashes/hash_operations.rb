@@ -25,7 +25,7 @@ puts "\nwhich value in hash1 does not exist in hash2"
 p( hash1.values-hash2.values )
 
 puts
-puts '--adds hash2 into hash1' + "\n"
+puts '--adds hash2 as an array into hash1' + "\n"
 puts "\nAppend the two arrays:"
 p( hash1.keys << hash2.keys )
 
