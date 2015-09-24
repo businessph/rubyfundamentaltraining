@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/each_loop.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/each_loop.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/for_loop_array.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/for_loop_array.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/for_with_counter.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/for_with_counter.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/iterating_hash.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/iterating_hash.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/multi_param_each.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/multi_param_each.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" afterPath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/until.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/until.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb" />
     </list>
     <ignored path="rubyfundamentaltraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +40,8 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@multi_param_each.coverage" NAME="multi_param_each Coverage Results" MODIFIED="1443055650760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@if_else_shortcut.coverage" NAME="if_else_shortcut Coverage Results" MODIFIED="1442247859693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex4.coverage" NAME="ex4 Coverage Results" MODIFIED="1442251036089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@and_or_not.coverage" NAME="and_or_not Coverage Results" MODIFIED="1443113849940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@better_accessor_methods.coverage" NAME="better_accessor_methods Coverage Results" MODIFIED="1442862359833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@and_or_not.coverage" NAME="and_or_not Coverage Results" MODIFIED="1442247644010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@array_basics.coverage" NAME="array_basics Coverage Results" MODIFIED="1442873949544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@include_module_in_class.coverage" NAME="include_module_in_class Coverage Results" MODIFIED="1442248193714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@inspect.coverage" NAME="inspect Coverage Results" MODIFIED="1442857626696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance" MODULE_NAME="rubyfundamentaltraining" />
@@ -80,14 +74,14 @@
     <favorites_list name="rubyfundamentaltraining" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2986842">
+    <splitter split-orientation="horizontal" split-proportion="0.7008547">
       <split-first>
         <leaf>
-          <file leaf-file-name="until.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/until.rb">
+          <file leaf-file-name="and_or_not.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49475262">
-                  <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+                <state vertical-scroll-proportion="0.5219365">
+                  <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -97,11 +91,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="while.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb">
+          <file leaf-file-name="case.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.625">
-                  <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.408472">
+                  <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -143,6 +137,7 @@
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/multi_param_each.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/until.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" />
       </list>
     </option>
   </component>
@@ -154,9 +149,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1967" />
+    <option name="x" value="2171" />
     <option name="y" value="23" />
-    <option name="width" value="1873" />
+    <option name="width" value="1669" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -251,6 +246,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="9-modules-mixins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="8-branching" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -266,27 +283,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.while">
-    <configuration default="false" name="for_loop_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyfundamentaltraining" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/7-loops-iterators" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/7-loops-iterators/for_loop_array.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.and_or_not">
     <configuration default="false" name="for_with_counter" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -367,6 +364,26 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="false" name="and_or_not" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyfundamentaltraining" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/8-branching" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -435,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.for_loop_array" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.for_with_counter" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.while" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.for_with_counter" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.while" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.and_or_not" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.while" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.for_with_counter" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.for_loop_array" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.and_or_not" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.while" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.for_with_counter" />
       </list>
     </recent_temporary>
   </component>
@@ -465,17 +482,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1967" y="23" width="1873" height="1177" extended-state="0" />
-    <editor active="false" />
+    <frame x="2171" y="23" width="1669" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16985254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13706207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.357671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36321628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -524,13 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/if_else.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/if_else_shortcut.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -549,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69875777">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8385093">
-          <caret line="18" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -889,8 +892,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625">
+        <state vertical-scroll-proportion="0.9670165">
           <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.408472">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5219365">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
