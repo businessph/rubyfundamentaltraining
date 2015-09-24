@@ -1,18 +1,17 @@
 # different syntax - for loops 
 
-puts "**** multi line using 'do' ****" 
+puts "\n" + "**** multi line using 'do' **** readable "
 
-for city in ['Paris','London','Jerusalem']  do 
+for city in ['Paris','London','Jerusalem'] do
 	puts city 
 end
 
-puts "**** multi line using 'do' is optional ****" 
+puts "\n" + "**** multi line using 'do' is optional **** lazy"
 
 for city in ['Paris','London','Jerusalem'] #do 
 	puts city 
 end
 
+puts "\n" + "**** single line 'do' is mandatory **** useless"
 
-puts "**** single line 'do' is mandatory ****" 
-
-for city in ['Paris','London','Jerusalem'] do puts city  end  
+for city in ['Paris','London','Jerusalem'] do puts city end

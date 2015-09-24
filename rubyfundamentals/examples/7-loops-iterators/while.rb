@@ -3,8 +3,10 @@
 $hours_asleep = 0     # global variable
 
 def tired?	
-	if $hours_asleep >= 7 then
-	    $hours_asleep = 0
+	if
+	  $hours_asleep >= 7
+	then
+	  $hours_asleep = 0
  		return false
  	else
  		$hours_asleep += 1
@@ -21,19 +23,32 @@ def sleep
 end
 
 
-puts "*** basic while"
-while tired? 
+puts "*** 1 basic while"
+while tired?             ### while tired
 	sleep
 end
 
 
-puts "\n*** while modifier"
-sleep while tired?
+puts "\n*** 2 while modifier"
+sleep while tired?       ### while tired
 
 
-puts "\n*** using begin...end executes at least once"
+puts "\n*** 3 using begin...end executes at least once"
 $hours_asleep = 7 
 begin 
   sleep
   snore 
-end while tired?
+end while tired?          ### while tired
+
+puts "\n*** 4 using begin...end executes at least once"
+$hours_asleep = 3
+begin
+	sleep
+	snore
+end while tired?          ### while tired
+
+puts "\n*** 5 using begin...end executes at least once"
+begin
+	sleep
+	snore
+end while tired?          ### while tired

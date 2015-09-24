@@ -4,8 +4,10 @@ $hours_asleep = 0     # global variable
 
 
 def tired?  
-  if $hours_asleep >= 7 then
-      $hours_asleep = 0
+  if
+    $hours_asleep >= 7
+  then
+    $hours_asleep = 0
     return false
   else
     $hours_asleep += 1
@@ -23,13 +25,13 @@ end
 
 
 puts "basic until"
-until !tired? 
+until !tired?        ### until not tired
   sleep
 end
 
 
 puts "\nuntil modifier"
-sleep until !tired?
+sleep until !tired?  ### until not tired
 
 
 puts "\nusing begin...end executes at least once"
@@ -37,4 +39,4 @@ $hours_asleep = 7
 begin 
   sleep
   snore 
-end until !tired?
+end until !tired?    ### until not tired
