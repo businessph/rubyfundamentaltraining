@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" afterPath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" />
     </list>
     <ignored path="rubyfundamentaltraining.iws" />
@@ -61,8 +61,8 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@unless.coverage" NAME="unless Coverage Results" MODIFIED="1442247973651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1442251326318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@for_with_counter.coverage" NAME="for_with_counter Coverage Results" MODIFIED="1443053375549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@case.coverage" NAME="case Coverage Results" MODIFIED="1443118575416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@array_instantiations.coverage" NAME="array_instantiations Coverage Results" MODIFIED="1442882547617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@case.coverage" NAME="case Coverage Results" MODIFIED="1442247723382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1442251371361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@module.coverage" NAME="module Coverage Results" MODIFIED="1442248242581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
   </component>
@@ -74,7 +74,7 @@
     <favorites_list name="rubyfundamentaltraining" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7008547">
+    <splitter split-orientation="horizontal" split-proportion="0.21509972">
       <split-first>
         <leaf>
           <file leaf-file-name="and_or_not.rb" pinned="false" current-in-tab="true">
@@ -94,8 +94,8 @@
           <file leaf-file-name="case.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.408472">
-                  <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.090771556">
+                  <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -138,6 +138,7 @@
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/until.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators/while.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb" />
+        <option value="$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb" />
       </list>
     </option>
   </component>
@@ -283,27 +284,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.and_or_not">
-    <configuration default="false" name="for_with_counter" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyfundamentaltraining" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/7-loops-iterators" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/7-loops-iterators/for_with_counter.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.case">
     <configuration default="false" name="iterating_hash" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -384,6 +365,26 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="false" name="case" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyfundamentaltraining" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/rubyfundamentals/examples/8-branching" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/rubyfundamentals/examples/8-branching/case.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -452,19 +453,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.for_with_counter" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.while" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.and_or_not" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.while" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.and_or_not" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.case" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.and_or_not" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.while" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.for_with_counter" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.case" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.and_or_not" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.while" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.multi_param_each" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.iterating_hash" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +484,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2171" y="23" width="1669" height="1177" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -492,7 +493,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13706207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36321628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36321628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -898,18 +899,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.408472">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/and_or_not.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5219365">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/8-branching/case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090771556">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
