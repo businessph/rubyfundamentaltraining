@@ -4,18 +4,18 @@ def showDay(day_number)
 	case(day_number)
 		when 1, '1', 'Monday', 'Mon', 'monday', 'mon' then puts "It's Monday"
 		# when 1, '1', 'Monday', 'Mon', 'monday', 'mon' then puts "It's Monday"   ###when 1, Monday or Mon puts it's monday
-		when 2 then puts "It's Tuesday" 
-		when 3 then puts "It's Wednesday" 
-		when 4 then puts "It's Thursday" 
-		when 5 then puts "It's Friday" 
-		             puts "It's almost the weekend" 
-		when 6,7 
+		when '2' then puts "It's Tuesday"
+		when '3' then puts "It's Wednesday"
+		when '4' then puts "It's Thursday"
+		when '5' then puts "It's Friday"
+		              puts "It's almost the weekend"
+		when '6','7'
                  puts "It's the weekend!!! " 
 		else puts "Number #{day_number} is not a valid day!"
 	end
 end
 
-print('what day is it? ')
+print("\n" + 'what day is it? ')
 ask_day = gets.chomp
 showDay(ask_day)
 
