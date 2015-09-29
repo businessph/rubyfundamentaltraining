@@ -21,10 +21,11 @@ end
 
 print "Enter name: "
 name = gets.chomp
-# name == "ruven" ? puts("Not you again!") : puts("Who are you?")
+name == "ruven" ? puts("Not you again!") : puts("Who are you?")
 
-if name == "ruven"
-    puts ("Not you again!")
-else
-  puts ("Who are you?")
-end
+###another way to write the above line
+# if name == "ruven"
+#     puts ("Not you again!")
+# else
+#   puts ("Who are you?")
+# end
