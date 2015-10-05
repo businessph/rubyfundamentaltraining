@@ -16,7 +16,6 @@ module MoodModule ###user is saying use a module and this is the Modulename
 
 end 
 
-
 class Perspective ###create class
 
    include MoodModule
@@ -31,31 +30,42 @@ class Perspective ###create class
 	
 end
 
-perspective = Perspective.new ### create a new perspective
+###create a new instance of a class > then add method/behaviors to the new instance > class includes the MoodModule
+perspective = Perspective.new
 
 perspective.give_perspective ### give the newly created perspective behavior 1
 perspective.give_another_perspective ### give the newly created perspective behavior 1
+### to print needs > puts > instance > module method
 puts perspective.give_opinion ### give the newly created perspective behavior 1
+### does not print because > the instance cannot directly access the MoodModule directly without puts
+perspective.give_opinion ### this is not returned because .give_opinion is not part of the class class can only use the
 
-perspective.give_opinion ### this is not returned because you are creating a new perspective class and adding mod to it
-                         ### you need to create a def of a def
+### you need to create a def of a def
+#######################################################################################
+#######################################################################################
+
 module PhModule
-
-def phtest1
-  return "\nphtest1 results"
-end
-
+  def module_method_phtest1
+    return "\nreturn module PhModule"
+  end
 end
 
 class Ph_class
-
   include PhModule
-
-def puts_phtest1
-  puts phtest1
+  def class_method_phtest1
+    puts module_method_phtest1
+  end
 end
 
-end
+###create new instance of Ph_class and name ph_class1
+     ph_class1 = Ph_class.new
 
-newclass = Ph_class.new
-newclass.puts_phtest1
+###use new instance and add class behavior/method
+
+puts ph_class1.class_method_phtest1  ###returned
+     ph_class1.class_method_phtest1  ###returned
+puts ph_class1.module_method_phtest1 ###returned
+     ph_class1.module_method_phtest1 ###not returned, why is this not returned???
+
+#######################################################################################
+#######################################################################################

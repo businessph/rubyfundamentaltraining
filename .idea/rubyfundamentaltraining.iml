@@ -106,5 +106,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v1.2.7, RVM: ruby-2.0.0-p598) [gem]" level="application" />
   </component>
 </module>
