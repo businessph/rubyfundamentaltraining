@@ -20,15 +20,19 @@ class Vehicle
      end
 
      def get_description
-		     return @description
+       @description
      end
 
 end      
       
 class Car < Vehicle  ### Car inherits from extends Vehicle
 
-      def initialize(col, descrip, trans)
-        super(col, descrip)
+      def initialize(col, descrip, trans)  ### add what you want from super, Car inherits from extends Vehicle
+        super(col, descrip)                ### add what you want from super, Car inherits from extends Vehicle
+        @transmission = trans              ### add what you want from current/sub
+      end
+
+      def set_transmission(trans)
         @transmission = trans
       end
 
@@ -36,27 +40,23 @@ class Car < Vehicle  ### Car inherits from extends Vehicle
         return @transmission
       end
 
-      def set_transmission(trans)
-        @transmission = trans
-      end
-
 end
 
-  puts  ###new line
-  vehicle1 = Vehicle.new('greyblue','2009 mazdaspeed3')
+  puts  ###new line ###vehicle class
+  vehicle1 = Vehicle.new(' greyblue',' 2009 mazdaspeed3')    ### space in the string1, from initalize def ### default set
   puts "Car color=#{vehicle1.get_color}, description=#{vehicle1.get_description}"
 
-  puts  ###new line
-  vehicle1.set_color("burple")
-  vehicle1.set_description("give a new description please")
-  puts "Car color=#{vehicle1.get_color}, description=#{vehicle1.get_description}"
+  puts  ###new line ###set
+  vehicle1.set_color("burple")                               ### update default set
+  vehicle1.set_description("give a new description please")  ### update default set
+  puts "Car color = #{vehicle1.get_color}, description = #{vehicle1.get_description}" ### space in the string2
 
   puts  ###new line
   vehicle1.set_color('hot pink')
   vehicle1.set_description('amazingly smooth ride')
   puts "\nCar after Modifications: color=#{vehicle1.get_color}, description=#{vehicle1.get_description}}"
 
-  puts  ###new line
+  puts  ###new line ### car class
   car1 = Car.new("yellow", "coup", "manual")
   puts "Car color=#{car1.get_color}, description=#{car1.get_description}, transmission=#{car1.get_transmission}"
 

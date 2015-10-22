@@ -27,19 +27,20 @@ puts "< - = output starts here = - >"
 puts
 ### "output starts here"
 
-
+puts
 puts "Welcome to Ruby Fundamentals"
-
+puts
 print "Welcome to Ruby Fundamentals \n"
-
+puts
 display_string
-
+puts
 display_name("Ruven")
-
-puts return_names("Josh", "Caroline") 
-
+puts
+puts return_names("Josh", "Caroline")
+puts
 puts "Hello and #{return_string}"      #embed method call
-
+puts
 puts "\n\t\t #{(5+22) * 4}"      #embed mathematical expression
-
+puts
 puts return_string1
+
