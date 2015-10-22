@@ -54,14 +54,16 @@ end
   puts  ###new line
   vehicle1.set_color('hot pink')
   vehicle1.set_description('amazingly smooth ride')
-  puts "\nCar after Modifications: color=#{vehicle1.get_color}, description=#{vehicle1.get_description}}"
+  puts "\nCar after Modifications: color = #{vehicle1.get_color}, description = #{vehicle1.get_description}}"
 
   puts  ###new line ### car class
   car1 = Car.new("yellow", "coup", "manual")
-  puts "Car color=#{car1.get_color}, description=#{car1.get_description}, transmission=#{car1.get_transmission}"
+  puts "Car color = #{car1.get_color}, description = #{car1.get_description}, transmission = #{car1.get_transmission}"
 
   puts  ###new line
-  car1.set_transmission("automatic")
+  car1.set_color("yellowstorm")
   car1.set_description("Has seen better times")
-  puts "\nCar after Modifications: color=#{car1.get_color}, description=#{car1.get_description}, transmission=#{car1.get_transmission}"
+  car1.set_transmission("automatic")
+
+  puts "\nCar after Modifications: color = #{car1.get_color}, description = #{car1.get_description}, transmission = #{car1.get_transmission}"
 
