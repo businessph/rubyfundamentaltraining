@@ -18,7 +18,6 @@ def getUserInfo
   ###output 3
   ### print line
   print "Yor ordered #{desiredWeight} of #{productName} for the cost of #{cost.to_f.round(2)}"
-  #print cost.to_f.round(2)
 
   ###These are the same
   ### printf("%.2f", cost)
