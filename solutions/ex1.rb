@@ -13,12 +13,12 @@ def getUserInfo
   productName = gets.chomp
 
   ### cost
-  cost = desiredWeight * 4.5 #cost per pound
+  cost = desiredWeight * 4.5 ###cost per pound
 
   ###output 3
   ### print line
-  print "Yor ordered #{desiredWeight} of #{productName} for the cost of "
-  print cost.to_f.round(2)
+  print "Yor ordered #{desiredWeight} of #{productName} for the cost of #{cost.to_f.round(2)}"
+  #print cost.to_f.round(2)
 
   ###These are the same
   ### printf("%.2f", cost)
