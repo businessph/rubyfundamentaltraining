@@ -1,5 +1,6 @@
-class Worker   
-  def initialize(name)  
+class Worker
+
+  def initialize(name)  ###initialize set_name method when you create a new instance of a class
     @name = name
   end
    
@@ -10,56 +11,65 @@ class Worker
   def get_name
     return @name 
   end 
-  
-def work(tool) 
-    @tool=tool
-    puts "#{@name} works using a #{@tool}"
+
+  ### this is returned by puts
+  def work_tool(tool)                      ###set tool
+    @tool = tool
+    puts "#{@name} works using a #{@tool}" ###get tool and name
   end
-  
+
+  ### this is returned return
   def to_s
-    return "#{@name} uses a #{@tool} and can be reached at  email: #{@eMail}"
-  end  
+    return "#{@name} uses a #{@tool} and can be reached at email: #{@eMail}" ###get the following
+  end
+
 end
 
-class Instructor < Worker  
-  def initialize(name, email)  
-     super  name 
-     @eMail = email
+class Instructor < Worker  ### add Worker class to Instructor class
+
+  def initialize(name, email)   ###init name from Worker class
+     super  name                ###inherit super name from Worker class
+     @eMail = email             ###part of this Instructor class
   end
   
   def set_email(email)   
     @eMail = email
-  end  
+  end
+
 end
 
+class Doctor < Worker  ### add Doctor class to Instructor class
 
-class Doctor < Worker  
-  def initialize(name, email)  
-     super name 
-     @eMail = email
+  def initialize(name, email)  ###init name from Worker class
+     super name                ###super name from Worker class
+     @eMail = email            ###part of this Doctor class
   end
+
   def set_email(email)   
     @eMail = email
-  end  
+  end
+
 end
 
-
-rubyInstrucor = Instructor.new("Helen" , "e@d.edu") 
-familyDoctor = Doctor.new("Joseph", "g@k.com" )  
-
+###create new instance, set name, set email,
+rubyInstructor = Instructor.new("Helen", "e@d.edu")
+familyDoctor = Doctor.new("Joseph", "g@k.com" )
+###tools, set tool
 puts"\n*** Working ***"
-puts rubyInstrucor.work("marker") 
-puts familyDoctor.work("stethoscope") 
-
-rubyInstrucor.set_email("prof@school.edu")  
+rubyInstructor.work_tool("marker")
+familyDoctor.work_tool("stethoscope")
+###emails, set new email
+rubyInstructor.set_email("prof@school.edu")
 familyDoctor.set_email("doc@hospital.org") 
-
+###return name, tool, new email
 puts"\n*** Result of the overriding to_s ***"
-puts rubyInstrucor
+puts rubyInstructor
 puts familyDoctor
-
+###inspect,
 puts "\n*** Inspecting ***"
-p(rubyInstrucor) 
-p(familyDoctor) 
+p(rubyInstructor)
+p(familyDoctor)
+
+###initialize start car, but cruise control is not initalized because you need speed and other factors for that to be active.  idle can be init.
 
 

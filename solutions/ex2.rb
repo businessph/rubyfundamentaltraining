@@ -43,6 +43,7 @@ rubyInstructor1.set_name("phtestname")
 
 ###this gets printed, puts is inside method
 puts
+puts
 rubyInstructor1.work("phtesttools")
 
 ###this gets printed, puts is not inside method
