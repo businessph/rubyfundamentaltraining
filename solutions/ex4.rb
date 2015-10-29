@@ -2,7 +2,7 @@ class Worker
   
   attr_reader :name     ###get
   attr_accessor :phone  ###set and get
-  @@totalInstances=0    ###global variable
+  @@totalInstances = 0    ###global variable
   
   def initialize(name, phone)
     @name = name
@@ -69,39 +69,49 @@ p(rubyInstructor)
 p(familyDoctor)
 
 #long way
-# class Item
-#
-#   def initialize(item_name, quantity)
-#     @item_name = item_name
-#     @quantity = quantity
-#   end
-#
-#   def item_name
-#     @item_name
-#   end
-#
-#   def quantity
-#     @quantity
-#   end
-# end
-#
-# example = example.new("TV",2)
-# puts example.item_name
-# puts example.quantity
+class Example
+  ###set
+  def initialize(item_name, quantity)
+    @item_name = item_name
+    @quantity = quantity
+  end
+  ###get
+  def item_name
+    @item_name
+  end
+  ###get
+  def quantity
+    @quantity
+  end
+end
+
+example1 = Example.new("TV",2)
+puts example1.item_name
+puts example1.quantity
 
 #short way
-# class Item
-#
-#   attr_reader :item_name, :quantity
-#
-#   def initialize(item_name, quantity)
-#     @item_name = item_name
-#     @quantity = quantity
-#   end
-#
-# end
-#
-# item = Item.new("TV",2)
-# puts item.item_name
-# puts item.quantity
+class Item
+
+  attr_reader :item_name, :quantity
+
+  def initialize(item_name, quantity)
+    @item_name = item_name
+    @quantity = quantity
+  end
+
+  ###you don't need this anymore because of attr_reader
+  # ###get
+  # def item_name
+  #   @item_name
+  # end
+  # ###get
+  # def quantity
+  #   @quantity
+  # end
+
+end
+
+item1 = Item.new("TV",2)
+puts item1.item_name
+puts item1.quantity
 
