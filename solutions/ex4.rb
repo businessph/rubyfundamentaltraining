@@ -1,73 +1,107 @@
 class Worker   
   
-  attr_reader :name
-  attr_accessor :phone 
+  attr_reader :name     ###get
+  attr_accessor :phone  ###set and get
+  @@totalInstances=0    ###global variable
   
-  @@totalInstances=0
-  
-  def initialize(name, phone)  
+  def initialize(name, phone)
     @name = name
     @phone = phone
-    @@totalInstances += 1
+    @@totalInstances += 1 ### global variable
   end
    
-  def name=(name)   
+  def name=(name)           ### set
     @name = name.capitalize
   end 
   
-  def work(tool) 
-    @tool=tool
+  def work_tool(tool)### set and get
+    @tool = tool
     puts "#{@name} works using a #{@tool}"
   end
   
-  def to_s
-    return "#{@name} uses a #{@tool} and can be reached at  email: #{@email} or phone: #{@phone} and the toal number of all state changes was #{@@totalInstances} workers"
-  end  
+  def to_s   ### return all parameters
+    return "#{@name} uses a #{@tool} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
+  end
+
 end
 
-class Instructor < Worker  
+class Instructor < Worker  ###inherit from Worker class
   
-  attr_writer :email
+  attr_writer :email       ###get
   
-  def initialize(name, phone, email)  
-     super(name, phone)   
+  def initialize(name, phone, email) ### init all
+     super(name, phone)              ### add from super class
      @email = email  
   end
   
 end
 
+class Doctor < Worker     ###inherit from Doctor class
 
-class Doctor < Worker 
+  attr_writer :email      ###get
   
-  attr_writer :email 
-  
-  def initialize(name, phone, email)  
-     super(name, phone)   
+  def initialize(name, phone, email)   ### init all
+     super(name, phone)                ### add from super class
      @email = email
   end
     
 end
 
-
-rubyInstrucor = Instructor.new("Helen", "415-657-4444", "e@d.edu") 
+rubyInstructor = Instructor.new("Helen", "415-657-4444", "e@d.edu")
 familyDoctor = Doctor.new("Joseph", "415-201-3344", "g@k.com" )  
 
 puts"\n*** Working ***"
-puts rubyInstrucor.work("marker") 
-puts familyDoctor.work("stethoscope") 
+puts rubyInstructor.work_tool("marker")
+puts familyDoctor.work_tool("stethoscope")
 
-rubyInstrucor.email = "prof@school.edu"  
+rubyInstructor.email = "prof@school.edu"
 familyDoctor.email = "doc@hospital.org" 
 
 puts"\n*** Result of the overriding to_s ***"
-puts rubyInstrucor
+puts rubyInstructor
 puts familyDoctor
 
-rubyInstrucor.name = "helena"
+rubyInstructor.name = "helena"
 familyDoctor.name = "joe"
 
 puts "\n*** Inspecting ***"
-p(rubyInstrucor) 
-p(familyDoctor) 
+p(rubyInstructor)
+p(familyDoctor)
 
+#long way
+# class Item
+#
+#   def initialize(item_name, quantity)
+#     @item_name = item_name
+#     @quantity = quantity
+#   end
+#
+#   def item_name
+#     @item_name
+#   end
+#
+#   def quantity
+#     @quantity
+#   end
+# end
+#
+# example = example.new("TV",2)
+# puts example.item_name
+# puts example.quantity
+
+#short way
+# class Item
+#
+#   attr_reader :item_name, :quantity
+#
+#   def initialize(item_name, quantity)
+#     @item_name = item_name
+#     @quantity = quantity
+#   end
+#
+# end
+#
+# item = Item.new("TV",2)
+# puts item.item_name
+# puts item.quantity
 
