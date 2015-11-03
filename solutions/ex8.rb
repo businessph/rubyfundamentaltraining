@@ -1,12 +1,12 @@
 
 print "In which city do you live?" 
-residentOfCity=gets.chomp
+residentOfCity = gets.chomp
 
 print "\nIn which city do you work?" 
-workCity=gets.chomp
+workCity = gets.chomp
 
 print "\nHow far (in miles) is your work from your home?" 
-miles=gets.chomp.to_i
+miles = gets.chomp.to_i
 
   if residentOfCity == workCity 
     puts "lucky" 
