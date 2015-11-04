@@ -13,8 +13,8 @@ class Album
 
   ###class Album init arr with the following sets and gets
     def initialize(arr) 
-        @name  = arr[0]
-        @artist = arr[1]
+        @name      = arr[0]
+        @artist    = arr[1]
         @numtracks = arr[2]
     end
 
@@ -51,7 +51,7 @@ class ClassicalAlbum < Album
         ###include superclass
         super(arr)
         ###set and get genre
-        @composer   = arr[3]
+        @composer = arr[3]
     end
 
     ### get the following instance variables, genre is only a part of the ClassicalAlbum class
@@ -101,7 +101,7 @@ def saveDB
     File.open($fn, 'w') {
         |f|
         f.write($album_arr.to_yaml)    ###take input write to array, to_yaml converts to YAML format
-    }
+                          }
 end
 
 
