@@ -19,7 +19,7 @@ def getUserInfo
   ### print line
   print "Yor ordered #{desiredWeight} of #{productName} for the cost of #{cost.to_f.round(2)}"
 
-  ###These are the same
+  ### These are the same
   ### printf("%.2f", cost)
   ### print cost.to_f.round(2)
 
@@ -38,3 +38,28 @@ end
 ### run first method
 getUserInfo
 
+###########################
+
+def strong_enough(earthquake, age)
+
+  strength = 1000 * (0.99 ** age)
+  s = 1
+  sum = 0
+
+  for x in earthquake
+    for y in x
+      sum += y
+    end
+    s = s * sum
+    sum = 0
+  end
+
+  if s > strength
+    return "Needs Reinforcement!"
+  else
+    return "Safe!"
+  end
+
+end
+
+##########################
