@@ -28,7 +28,7 @@ def getUserInfo
   puts "\n" + updateOrder(cost)
   #puts "\n" + (updateOrder cost) - parenthesis needed for precedence surrounding the method call or the parameter
 
-  end
+end
 
 ###string from getUserInfo gets put into this method and multiplies it by ten
 def updateOrder(theCost)

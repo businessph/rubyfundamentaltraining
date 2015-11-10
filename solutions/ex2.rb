@@ -38,6 +38,8 @@ puts rubyInstructor.get_name
 puts
 puts rubyInstructor.get_tool
 
+#############################################################################################
+
 ###this does not print
 rubyInstructor1.set_name("phtestname")
 
@@ -53,8 +55,6 @@ puts rubyInstructor1.get_name
 ###this gets printed, puts is not inside method
 puts
 puts rubyInstructor1.get_tool
-
-
 
 #puts rubyInstructor.work('Marker1')
 

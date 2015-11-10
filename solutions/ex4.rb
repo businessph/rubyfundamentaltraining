@@ -1,26 +1,32 @@
 class Worker   
-  
+  attr_writer :phtest_writer ###set
   attr_reader :name     ###get
   attr_accessor :phone  ###set and get
   @@totalInstances = 0    ###global variable
   
-  def initialize(name, phone)
+  def initialize(name, phone, phtest_writer)
     @name = name
     @phone = phone
+    @phtest_writer = phtest_writer
     @@totalInstances += 1 ### global variable
   end
-   
+
+  ###need this because name reader created
   def name=(name)           ### set
     @name = name.capitalize
-  end 
-  
+  end
+
+  def phtest_writer
+    return @phtest_writer
+  end
+
   def work_tool(tool)### set and get
     @tool = tool
-    puts "#{@name} works using a #{@tool}"
+    puts "#{@name} works using a #{@tool} #{phtest_writer}"
   end
   
   def to_s   ### return all parameters
-    return "#{@name} uses a #{@tool} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
+    return "#{@name} uses a #{@tool} #{phtest_writer} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
   end
 
 end
@@ -29,8 +35,8 @@ class Instructor < Worker  ###inherit from Worker class
   
   attr_writer :email       ###get
   
-  def initialize(name, phone, email) ### init all
-     super(name, phone)              ### add from super class
+  def initialize(name, phone, phtest_writer, email) ### init all
+     super(name, phone, phtest_writer)              ### add from super class
      @email = email  
   end
   
@@ -40,15 +46,15 @@ class Doctor < Worker     ###inherit from Doctor class
 
   attr_writer :email      ###get
   
-  def initialize(name, phone, email)   ### init all
-     super(name, phone)                ### add from super class
+  def initialize(name, phone, phtest_writer, email)   ### init all
+     super(name, phone, phtest_writer)                ### add from super class
      @email = email
   end
     
 end
 
-rubyInstructor = Instructor.new("Helen", "415-657-4444", "e@d.edu")
-familyDoctor = Doctor.new("Joseph", "415-201-3344", "g@k.com" )  
+rubyInstructor = Instructor.new("Helen", "415-657-4444", "phtestwriter", "e@d.edu")
+familyDoctor = Doctor.new("Joseph", "415-201-3344", "phtestwriter", "g@k.com" )
 
 puts"\n*** Working ***"
 puts rubyInstructor.work_tool("marker")
@@ -63,6 +69,9 @@ puts familyDoctor
 
 rubyInstructor.name = "helena"
 familyDoctor.name = "joe"
+
+rubyInstructor.phtest_writer = "phtestwriterhelena"
+familyDoctor.phtest_writer = "phtestwriterjoe"
 
 puts "\n*** Inspecting ***"
 p(rubyInstructor)
