@@ -1,32 +1,41 @@
-class Worker   
+# @class_ins_var = "class instance variable value"       ###used in one instance only
+# @@class_var = "class variable value" #class  variable, ###used in all instances
+
+### what would you do first?  write(set), read(get), access(set and get)
+
+class Worker
   attr_writer :phtest_writer ###set
-  attr_reader :name     ###get
-  attr_accessor :phone  ###set and get
-  @@totalInstances = 0    ###global variable
-  
-  def initialize(name, phone, phtest_writer)
-    @name = name
-    @phone = phone
-    @phtest_writer = phtest_writer
+  attr_reader :name          ###get
+  attr_accessor :phone       ###set and get
+  @@totalInstances = 0       ###global class variable
+
+  ###            set          , get , set and get
+  def initialize(phtest_writer, name, phone)
+    @phtest_writer = phtest_writer           ### set
+    @name = name                             ### get
+    @phone = phone                           ### set and get
     @@totalInstances += 1 ### global variable
   end
 
-  ###need this because name reader created
-  def name=(name)           ### set
+  ### reader name is a get, we need a set method
+  def name=(name)
     @name = name.capitalize
   end
 
-  def phtest_writer
+  ### phtest_writer is a set, we need a get method
+  def return_phtest_writer
     return @phtest_writer
   end
 
+  ### independent method in class 
   def work_tool(tool)### set and get
     @tool = tool
-    puts "#{@name} works using a #{@tool} #{phtest_writer}"
+    puts "#{@name} works using a #{@tool} #{return_phtest_writer}"
   end
-  
+
+  ###over write to_s method
   def to_s   ### return all parameters
-    return "#{@name} uses a #{@tool} #{phtest_writer} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
+    return "#{@name} uses a #{@tool} #{return_phtest_writer} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
   end
 
 end
@@ -63,7 +72,7 @@ puts familyDoctor.work_tool("stethoscope")
 rubyInstructor.email = "prof@school.edu"
 familyDoctor.email = "doc@hospital.org" 
 
-puts"\n*** Result of the overriding to_s ***"
+puts"\n*** Result of the overriding to_s ***" ###this automatically gets printed because it is in the worker class, return
 puts rubyInstructor
 puts familyDoctor
 

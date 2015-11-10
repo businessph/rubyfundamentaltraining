@@ -4,6 +4,7 @@ countriesAndCitiesArr = [
     ["Israel","Jerusalem","Tel Aviv"],
     ["England","London","Leeds","Machaster"]
                           ]
+
 ###display whole array
 puts "\n*** Inspecting ***"
 p(countriesAndCitiesArr)
