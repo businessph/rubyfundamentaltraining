@@ -6,7 +6,7 @@ for i in $daysArr do
   puts i 
 end
 
-puts "\n*** Using each() ***"
+puts "\n*** Using each() ***"   ### pri said this one is more widely used
 $daysArr.each do |d|
   puts d 
 end

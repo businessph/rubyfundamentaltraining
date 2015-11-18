@@ -17,17 +17,17 @@ class Worker
     @@totalInstances += 1 ### global variable
   end
 
-  ### reader name is a get, we need a set method
-  def name=(name)
-    @name = name.capitalize
-  end
-
   ### phtest_writer is a set, we need a get method
   def return_phtest_writer
     return @phtest_writer
   end
 
-  ### independent method in class 
+  ### reader name is a get, we need a set method
+  def name=(name)
+    @name = name.capitalize
+  end
+
+  ### independent method in class
   def work_tool(tool)### set and get
     @tool = tool
     puts "#{@name} works using a #{@tool} #{return_phtest_writer}"
@@ -35,31 +35,31 @@ class Worker
 
   ###over write to_s method
   def to_s   ### return all parameters
-    return "#{@name} uses a #{@tool} #{return_phtest_writer} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
+    return "#{@name} uses a #{@tool} #{@phtest_writer} and can be reached at email: #{@email} or phone: #{@phone} and the total number of all state changes was #{@@totalInstances} workers"
   end
 
 end
 
 class Instructor < Worker  ###inherit from Worker class
-  
-  attr_writer :email       ###get
-  
+
+  attr_writer :email       ### set
+
   def initialize(name, phone, phtest_writer, email) ### init all
      super(name, phone, phtest_writer)              ### add from super class
-     @email = email  
+     @email = email
   end
-  
+
 end
 
 class Doctor < Worker     ###inherit from Doctor class
 
-  attr_writer :email      ###get
-  
+  attr_writer :email      ### set
+
   def initialize(name, phone, phtest_writer, email)   ### init all
      super(name, phone, phtest_writer)                ### add from super class
      @email = email
   end
-    
+
 end
 
 rubyInstructor = Instructor.new("Helen", "415-657-4444", "phtestwriter", "e@d.edu")
@@ -70,7 +70,7 @@ puts rubyInstructor.work_tool("marker")
 puts familyDoctor.work_tool("stethoscope")
 
 rubyInstructor.email = "prof@school.edu"
-familyDoctor.email = "doc@hospital.org" 
+familyDoctor.email = "doc@hospital.org"
 
 puts"\n*** Result of the overriding to_s ***" ###this automatically gets printed because it is in the worker class, return
 puts rubyInstructor
@@ -133,3 +133,36 @@ item1 = Item.new("TV",2)
 puts item1.item_name
 puts item1.quantity
 
+# ###############################################
+
+# class Blah
+#
+#   attr_writer :write
+#   attr_reader :read
+#   attr_accessor :write_read
+#
+#   def initialize(write, read, write_read)
+#     @write = write
+#     @read = read
+#     @write_read = write_read
+#   end
+#
+#   def return_write
+#     @write
+#   end
+#
+#   def define_reader(read)
+#     @read =read
+#   end
+#
+#   def return_all
+#     "#{@read},#{@write_read}"
+#   end
+#
+#   end
+#
+#   new_blah = Blah.new("", "read1", "write_read1")
+#
+#   #puts new_blah.write
+#   puts new_blah.read
+#   puts new_blah.write_read

@@ -25,4 +25,3 @@ end
 countriesAndCitiesArr[0][0] = "United States of America"
 puts "\n*** Inspecting ***"
 p(countriesAndCitiesArr)
-

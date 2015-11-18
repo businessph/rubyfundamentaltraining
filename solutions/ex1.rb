@@ -1,3 +1,7 @@
+###print,
+### gets,
+### puts
+
 
 ### getUserInfo
 def getUserInfo
