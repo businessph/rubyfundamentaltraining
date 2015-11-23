@@ -1,9 +1,11 @@
 
 ### -main file needs an external file.  external file needs to be in the same directory/folder as main
 require_relative( "ex9_external_module.rb" )
+require_relative( "ex9_external_module1.rb" )
 
 ### -main file needs external module
-include CalorieMeasurer 
+include CalorieMeasurer
+include PriceMeasurer
 
 ### -create set and get methods for the following
 class Breakfast 
@@ -22,6 +24,7 @@ print "\nEnter price: "
 breakfast.price = gets.chomp.to_f
 
 ### print to get, class instance to set, which equals get
+### this calories uses the module method
 print "\nEnter calories: "
 breakfast.calories = gets.chomp.to_i
 
@@ -38,5 +41,8 @@ at the cost of $#{(breakfast.price/breakfast.calories).round(2)} per calorie.
 #{measureCalories(breakfast.calories)} for me." ### module method, pass in breakfast.calories to module method
 
 puts "\nThe service was #{breakfast.service}. My review for this place is #{breakfast.review}."
+
+puts "#{measurePrice(breakfast.price)}"
+
 #The IDE is having syntax-highlighting problems, the Ruby interpreter knows better
 
