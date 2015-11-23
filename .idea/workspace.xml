@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ex9.rb" afterPath="$PROJECT_DIR$/solutions/ex9.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/exa10.rb" afterPath="$PROJECT_DIR$/solutions/exa10.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/phoneBook.yml" afterPath="$PROJECT_DIR$/solutions/phoneBook.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" afterPath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rubyfundamentaltraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +46,7 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@ex2.coverage" NAME="ex2 Coverage Results" MODIFIED="1447116318296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@require_module.coverage" NAME="require_module Coverage Results" MODIFIED="1444178349928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@get_put.coverage" NAME="get_put Coverage Results" MODIFIED="1445527551852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@exa10.coverage" NAME="exa10 Coverage Results" MODIFIED="1446593367632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@exa10.coverage" NAME="exa10 Coverage Results" MODIFIED="1448316376600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@accessor_methods.coverage" NAME="accessor_methods Coverage Results" MODIFIED="1442871106659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@assign_array_values.coverage" NAME="assign_array_values Coverage Results" MODIFIED="1442883045927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@if_else.coverage" NAME="if_else Coverage Results" MODIFIED="1443487291262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
@@ -74,14 +77,14 @@
     <favorites_list name="rubyfundamentaltraining" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.75884247">
       <split-first>
         <leaf>
-          <file leaf-file-name="ex9.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/solutions/ex9.rb">
+          <file leaf-file-name="exa10.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/solutions/exa10.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.40097207">
-                  <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.26530612">
+                  <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -91,11 +94,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ex9_external_module1.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/solutions/ex9_external_module1.rb">
+          <file leaf-file-name="phoneBook.yml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/solutions/phoneBook.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.40097207">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.18963337">
+                  <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -146,7 +149,6 @@
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/inspect.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/3-inheritance/to_s_method.rb" />
         <option value="$PROJECT_DIR$/solutions/phoneBook.yml" />
-        <option value="$PROJECT_DIR$/solutions/exa10.rb" />
         <option value="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/music_database_application.rb" />
         <option value="$PROJECT_DIR$/solutions/ex1.rb" />
         <option value="$PROJECT_DIR$/solutions/ex2.rb" />
@@ -159,6 +161,7 @@
         <option value="$PROJECT_DIR$/solutions/ex9_external_module.rb" />
         <option value="$PROJECT_DIR$/solutions/ex9_external_module1.rb" />
         <option value="$PROJECT_DIR$/solutions/ex9.rb" />
+        <option value="$PROJECT_DIR$/solutions/exa10.rb" />
       </list>
     </option>
   </component>
@@ -170,10 +173,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="x" value="640" />
     <option name="y" value="23" />
-    <option name="width" value="1862" />
-    <option name="height" value="1177" />
+    <option name="width" value="1280" />
+    <option name="height" value="1147" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -247,20 +250,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyfundamentaltraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="rubyfundamentals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -288,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/btprojects/qa_web_test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -298,27 +287,7 @@
       <recent name="$PROJECT_DIR$/solutions" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.ex9">
-    <configuration default="false" name="ex5" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyfundamentaltraining" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/solutions" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/solutions/ex5.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.exa10">
     <configuration default="false" name="ex6" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyfundamentaltraining" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -396,6 +365,26 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/solutions/ex9.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exa10" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyfundamentaltraining" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/solutions" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/solutions/exa10.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -527,19 +516,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.ex5" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.ex6" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.ex7" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.ex8" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.ex9" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.ex6" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.ex7" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.ex8" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.ex9" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.exa10" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.ex9" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.ex8" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.ex7" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.ex6" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.ex5" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.exa10" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.ex9" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.ex8" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.ex7" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.ex6" />
       </list>
     </recent_temporary>
   </component>
@@ -557,17 +546,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1862" height="1177" extended-state="0" />
-    <editor active="true" />
+    <frame x="640" y="23" width="1280" height="1147" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16758242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21494465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22148289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -854,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/phoneBook.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15209125">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/album_database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -872,13 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5521473">
           <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/exa10.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -971,8 +946,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solutions/ex9.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40097207">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/phoneBook.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18963337">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/exa10.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26530612">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding />
         </state>
       </provider>
