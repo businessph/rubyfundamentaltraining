@@ -20,6 +20,7 @@ print "\nEnter dish: "
 breakfast.dish = gets.chomp
 
 ### print to get, class instance to set, which equals get
+### this price uses the module method
 print "\nEnter price: "
 breakfast.price = gets.chomp.to_f
 
