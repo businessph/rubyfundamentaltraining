@@ -12,7 +12,7 @@ $fn = 'album_database.yml'    # data file
 class Album
 
   ###class Album init arr with the following sets and gets
-    def initialize(arr) 
+    def initialize(arr)
         @name      = arr[0]
         @artist    = arr[1]
         @numtracks = arr[2]
@@ -25,7 +25,7 @@ class Album
 
 end
 
-###class PopAlbum inherits Album
+###class PopAlbum(SUB) inherits Album(SUPER)
 class PopAlbum < Album  
 
   ###class PopAlbum init arr with the following set and get
@@ -37,8 +37,8 @@ class PopAlbum < Album
     end
 
   ### get the following instance variables, genre is only a part of the PopAlbum class
-    def get_details        
-        super << @genre   # super calls get_details in the superclass
+    def get_details
+        super << @genre   # super calls SUPER and adds current instance variable
     end
 
 end
