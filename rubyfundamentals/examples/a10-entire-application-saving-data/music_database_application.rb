@@ -1,6 +1,6 @@
 ### an entire application including saving data
 
-### require yaml
+### require external yaml file
 puts "Required built-in module returned: #{require 'yaml'}"
 
 ###global array equals create new array
