@@ -56,7 +56,7 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@class_variables.coverage" NAME="class_variables Coverage Results" MODIFIED="1442867379658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@stand_alone_module.coverage" NAME="stand_alone_module Coverage Results" MODIFIED="1444178355900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@include_two_modules.coverage" NAME="include_two_modules Coverage Results" MODIFIED="1444176447006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@music_database_application.coverage" NAME="music_database_application Coverage Results" MODIFIED="1449596777623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@music_database_application.coverage" NAME="music_database_application Coverage Results" MODIFIED="1449599736706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@iterate_multi_level_array.coverage" NAME="iterate_multi_level_array Coverage Results" MODIFIED="1442883369343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1445358245927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@index_into_array.coverage" NAME="index_into_array Coverage Results" MODIFIED="1442883058643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
@@ -91,8 +91,8 @@
           <file leaf-file-name="music_database_application.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/music_database_application.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.53911203">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.47568712">
+                  <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -252,6 +252,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentaltraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyfundamentals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -948,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/a10-entire-application-saving-data/music_database_application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53911203">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47568712">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
