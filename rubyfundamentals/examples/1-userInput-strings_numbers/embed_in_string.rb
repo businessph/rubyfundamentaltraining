@@ -27,6 +27,24 @@ puts "< - = output starts here = - >"
 puts
 ### "output starts here"
 
+def return_test
+  return "
+Hello,
+Here are your Jenkins credentials.  You should be able to login, as long as your ip address is on our white list.
+username: fdas
+password: fdsa
+
+http://jenkins.btstaging.com/
+
+Thank you for your time and have a great day.
+
+"
+end
+
+puts
+puts return_test
+puts
+
 puts
 puts "Welcome to Ruby Fundamentals"
 puts
