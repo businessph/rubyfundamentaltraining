@@ -41,6 +41,10 @@ Thank you for your time and have a great day.
 "
 end
 
+100 > 2 ? true : false; puts "hi the first number is higher than the second number"
+
+1.is_a?(Integer)
+
 puts
 puts return_test
 puts
