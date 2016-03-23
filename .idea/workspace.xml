@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817cae0d-6bca-4fb3-84ff-805de1576774" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/random.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/embed_in_string.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/hash_operations.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/hash_operations.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays/iterate_multi_level_array.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" afterPath="$PROJECT_DIR$/.idea/rubyfundamentaltraining.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/random.rb" afterPath="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/random.rb" />
     </list>
     <ignored path="rubyfundamentaltraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +60,7 @@
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1458752636891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@index_into_array.coverage" NAME="index_into_array Coverage Results" MODIFIED="1442883058643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/5-arrays" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@multiple_variable_accessors.coverage" NAME="multiple_variable_accessors Coverage Results" MODIFIED="1442871344072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/4-variables-accessors" MODULE_NAME="rubyfundamentaltraining" />
-    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@random.coverage" NAME="random Coverage Results" MODIFIED="1458757596099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
+    <SUITE FILE_PATH="coverage/rubyfundamentaltraining@random.coverage" NAME="random Coverage Results" MODIFIED="1458759294173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@unless.coverage" NAME="unless Coverage Results" MODIFIED="1442247973651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/8-branching" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@for_with_counter.coverage" NAME="for_with_counter Coverage Results" MODIFIED="1451535761166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/7-loops-iterators" MODULE_NAME="rubyfundamentaltraining" />
     <SUITE FILE_PATH="coverage/rubyfundamentaltraining@module.coverage" NAME="module Coverage Results" MODIFIED="1444178445585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubyfundamentals/examples/9-modules-mixins" MODULE_NAME="rubyfundamentaltraining" />
@@ -116,8 +111,8 @@
           <file leaf-file-name="random.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/random.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.95916516">
-                  <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+                <state vertical-scroll-proportion="0.92136306">
+                  <caret line="75" column="74" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
@@ -140,7 +135,7 @@
           <file leaf-file-name="using_hash.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/using_hash.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35390198">
+                <state vertical-scroll-proportion="0.5111402">
                   <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="24" />
                   <folding />
                 </state>
@@ -772,16 +767,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3008" y="23" width="3008" height="1669" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.116992585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28299493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4974587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1147,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/6-hashes/using_hash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35390198">
+        <state vertical-scroll-proportion="0.5111402">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
@@ -1187,8 +1182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rubyfundamentals/examples/1-userInput-strings_numbers/random.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95916516">
-          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.92136306">
+          <caret line="75" column="74" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
           <folding />
         </state>
       </provider>

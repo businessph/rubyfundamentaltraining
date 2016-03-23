@@ -15,6 +15,7 @@ range3 = (29372-18611)
 range4 = (40773-29373)
 range5 = (90750-40774)
 range6 = (189300-90751)
+range51 = (50000-40774)
 
 statetaxpay1 = ((range1 * tax1) - range1).round 2
 statetaxpay2 = ((range2 * tax2) - range2).round 2
@@ -22,9 +23,12 @@ statetaxpay3 = ((range3 * tax3) - range3).round 2
 statetaxpay4 = ((range4 * tax4) - range4).round 2
 statetaxpay5 = ((range5 * tax5) - range5).round 2
 statetaxpay6 = ((range6 * tax6) - range6).round 2
+statetaxpay51 = ((range51 * tax5) - range51).round 2
+
 
 statetaxpaytotal = (statetaxpay1 + statetaxpay2 + statetaxpay3 + statetaxpay4 + statetaxpay5).round 2
 statetaxpaytotal1 = (statetaxpay1 + statetaxpay2 + statetaxpay3 + statetaxpay4 + statetaxpay5 + statetaxpay6).round 2
+statetaxpaytotal2 = (statetaxpay1 + statetaxpay2 + statetaxpay3 + statetaxpay4 + statetaxpay51).round 2
 
 puts
 puts "you make $#{range1}       ,you pay $#{statetaxpay1} in state taxes, at a rate of    1%"
@@ -34,6 +38,7 @@ puts "you make $#{range4} more, you pay $#{statetaxpay4} in state taxes, at a ra
 puts "you make $#{range5} more, you pay $#{statetaxpay5} in state taxes, at a rate of 8%"
 puts "you make $#{range6} more, you pay $#{statetaxpay6} in state taxes, at a rate of 9.3%"
 puts
+puts "you make $50000, you pay $#{statetaxpaytotal2} in state taxes"
 puts "you make $90750, you pay $#{statetaxpaytotal} in state taxes"
 puts "you make $189300, you pay $#{statetaxpaytotal1} in state taxes"
 puts
@@ -47,23 +52,28 @@ fedrange1 = (9225-0)
 fedrange2 = (37450-9226)
 fedrange3 = (90750-37451)
 fedrange4 = (189300-90751)
+fedrange31 = (50000-37451)
 
 fedtaxpay1 = ((fedrange1 * fedtax1) - fedrange1).round 2
 fedtaxpay2 = ((fedrange2 * fedtax2) - fedrange2).round 2
 fedtaxpay3 = ((fedrange3 * fedtax3) - fedrange3).round 2
 fedtaxpay4 = ((fedrange4 * fedtax4) - fedrange4).round 2
+fedtaxpay31 = ((fedrange31 * fedtax3) - fedrange31).round 2
 
 federaltaxpaytotal = (fedtaxpay1 + fedtaxpay2 + fedtaxpay3)
 federaltaxpaytotal1 = (fedtaxpay1 + fedtaxpay2 + fedtaxpay3 + fedtaxpay4)
+federaltaxpaytotal2 = (fedtaxpay1 + fedtaxpay2 + fedtaxpay31)
 
 puts "you make #{fedrange1}, you pay $#{fedtaxpay1} in federal taxes at a rate of 10%"
 puts "you make #{fedrange2} more, you pay $#{fedtaxpay2} in federal taxes at a rate of 15%"
 puts "you make #{fedrange3} more, you pay $#{fedtaxpay3} in federal taxes at a rate of 25%"
 puts "you make #{fedrange4} more, you pay $#{fedtaxpay4} in federal taxes at a rate of 28%"
 puts
+puts "you make $50000, you pay $#{federaltaxpaytotal2} in federal taxes"
 puts "you make $90750, you pay $#{federaltaxpaytotal} in federal taxes"
 puts "you make $189300, you pay $#{federaltaxpaytotal1} in federal taxes"
 puts
+puts "you make $50000, you pay $#{(statetaxpaytotal2 + federaltaxpaytotal2)} in state and federal taxes"
 puts "you make $90750, you pay $#{(statetaxpaytotal + federaltaxpaytotal)} in state and federal taxes"
 puts "you make $189300, you pay $#{(statetaxpaytotal1 + federaltaxpaytotal1)} in state and federal taxes"
 puts
