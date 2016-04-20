@@ -98,10 +98,10 @@ statefedtaxrate4 = (((189300 / (189300 - (statetaxpaytotal1 + federaltaxpaytotal
 statefedtaxrate5 = (((37450 / (37450 - (statetaxpaytotal5 + federaltaxpaytotal21))) - 1) * 100).round 2
 
 
-puts "you make #{fedrange1}, you pay $#{fedtaxpay1} in federal taxes at a rate of 10%"
-puts "you make #{fedrange2} more, you pay $#{fedtaxpay2} in federal taxes at a rate of 15%"
-puts "you make #{fedrange3} more, you pay $#{fedtaxpay3} in federal taxes at a rate of 25%"
-puts "you make #{fedrange4} more, you pay $#{fedtaxpay4} in federal taxes at a rate of 28%"
+puts "you make $#{fedrange1}, you pay $#{fedtaxpay1} in federal taxes at a rate of 10%"
+puts "you make $#{fedrange2} more, you pay $#{fedtaxpay2} in federal taxes at a rate of 15%"
+puts "you make $#{fedrange3} more, you pay $#{fedtaxpay3} in federal taxes at a rate of 25%"
+puts "you make $#{fedrange4} more, you pay $#{fedtaxpay4} in federal taxes at a rate of 28%"
 puts
 puts "you make $37450, you pay $#{federaltaxpaytotal21} in federal taxes"
 puts "you make $50000, you pay $#{federaltaxpaytotal2} in federal taxes"
