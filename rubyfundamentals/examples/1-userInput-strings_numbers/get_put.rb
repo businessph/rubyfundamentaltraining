@@ -19,7 +19,7 @@ puts "Hello #{first_name} #{second_name}"
 
 # Without parenthesis and the space between method name and quotes is optional
 print 'Please, enter your last name: '
-puts "Hello #{gets.chomp.upcase}"    
+puts "Hello #{gets.chomp.upcase}"
 
 #another way - String concatenation
 print('Please, enter your first and last name: ' )

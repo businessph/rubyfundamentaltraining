@@ -6,7 +6,7 @@
 puts "\n" + '***  array of numbers...each'
 
 [1,2,3].each do |i|                ###use the actual array.each
-	puts i 
+	puts i
 end
 
 ###this sets the array equal to arr
@@ -14,14 +14,14 @@ puts "\n" + '***  using a variable of an array of strings...each'
 
 arr = ['one','two','three']
 arr.each do |element|              ###arr is key, use parameter which is the array
-	puts element 
+	puts element
 end
 
 ### array . each loop and puts
 puts "\n" + '***array of strings...each... using {}'
 
 ['one','two','three'].each { |element|
-  puts element 
+  puts element
 }
 
 
@@ -30,7 +30,19 @@ arr1 = ['oleg','ph','ab','dan']
 arr1.each do |i|
   puts i
 end
- 
- 
+
+puts
+puts "test"
+puts
+
+$i = 0
+$num = 5
+
+while $i < $num  do
+  puts("Inside the loop i = #$i" )
+  $i +=1
+end
+
+
 
 

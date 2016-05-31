@@ -31,7 +31,7 @@ puts
 print "Tax2 on $#{$input_decimal.round 2}"
 printf(" is $%.2f", $pay_tax)
 printf(", so grand total is $%.2f", $input_decimal+$pay_tax)
-puts "The grand total is #{decimal_number}"
+#puts "The grand total is #{decimal_number}"
 print "phtest #{tax_rate}"
 printf("phtest", tax_rate)
 

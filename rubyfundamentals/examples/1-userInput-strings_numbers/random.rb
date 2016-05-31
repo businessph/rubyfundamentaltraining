@@ -21,7 +21,7 @@ range52 = (66290-40774)
 range53 = (88736-40774)
 range41 = (37450-29373)
 
-### range state tax paid
+### state tax paid by range
 statetaxpay1 = ((range1 * tax1) - range1).round 2
 statetaxpay2 = ((range2 * tax2) - range2).round 2
 statetaxpay3 = ((range3 * tax3) - range3).round 2
@@ -72,7 +72,7 @@ fedrange31 = (50000-37451)
 fedrange32 = (66290-37451)
 fedrange33 = (88736-37451)
 
-### range federal tax paid
+### federal tax paid by range
 fedtaxpay1 = ((fedrange1 * fedtax1) - fedrange1).round 2
 fedtaxpay2 = ((fedrange2 * fedtax2) - fedrange2).round 2
 fedtaxpay3 = ((fedrange3 * fedtax3) - fedrange3).round 2
@@ -89,7 +89,7 @@ federaltaxpaytotal3 = (fedtaxpay1 + fedtaxpay2 + fedtaxpay32) ###66290
 federaltaxpaytotal4 = (fedtaxpay1 + fedtaxpay2 + fedtaxpay33) ###88736
 federaltaxpaytotal21 = (fedtaxpay1 + fedtaxpay2) ###37450
 
-### state and federal tax rate
+### state and federal combine tax rate
 statefedtaxrate = (((50000 / (50000 - (statetaxpaytotal2 + federaltaxpaytotal2))) - 1) * 100).round 2
 statefedtaxrate1 = (((66290 / (66290 - (statetaxpaytotal3 + federaltaxpaytotal3))) - 1) * 100).round 2
 statefedtaxrate2 = (((88736 / (88736 - (statetaxpaytotal4 + federaltaxpaytotal4))) - 1) * 100).round 2
@@ -116,12 +116,6 @@ puts "you make $66290, you pay $#{(statetaxpaytotal3 + federaltaxpaytotal3)} in 
 puts "you make $88736, you pay $#{(statetaxpaytotal4 + federaltaxpaytotal4)} in state and federal taxes at a rate of %#{statefedtaxrate2}"
 puts "you make $90750, you pay $#{(statetaxpaytotal + federaltaxpaytotal)} in state and federal taxes at a rate of %#{statefedtaxrate3}"
 puts "you make $189300, you pay $#{(statetaxpaytotal1 + federaltaxpaytotal1)} in state and federal taxes at a rate of %#{statefedtaxrate4}"
-puts
-
-
-
-
-
 puts
 puts "these totals do not account for other deductions from your check such as Fed MED/EE (funds the medicare health insurance program), Fed OASDI/EE (funds social security), CA OASDI/EE (funds social security), and healthcare care charges."
 puts
